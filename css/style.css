@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family:Poppins, sans-serif;
+}
+.navigation{
+	position:relative;
+	font-size:25px; 
+	background-color: rgb(255, 242, 194);
+	padding: 10px;
+}
+.navigation > *{
+	display:inline-block;
+}
+nav{
+	width:91%;
+	text-align:right;
+}
+nav a{
+	display:inline-block;
+	margin-right:20px;
+	position:relative;
+}
+.logo-block a{
+	font-size:35px;
+}
+.logo-block img{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+a{
+	text-decoration:none;
+}
+a:hover {
+  color: red;
+}
+h1, h3{
+	text-align: center;
+}
+.istorija{
+	display: flex-inline;
+	justify-content: center;
+	width: 80%;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 100px;
+}
+
+#audio{
+	display: flex-inline;
+	justify-content: center;
+	width: 80%;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 100px;
+ }
+ #tekst p{
+	 text-align: center;
+ }
+
+.tekst p{
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.istorija a{
+	text-align: left;
+	font-size: 14px;
+}
+
+.tekst{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.footer{
+	background-color: rgb(255, 242, 194);	
+	width: 100%;
+	display:flex;
+	justify-content: space-around;
+}
+.footer a{
+	display:inline-block;
+}
+#stadion-block img{
+	width: 80%;
+	height: auto;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 25px;
+}
+
+.galerija{
+	display:flex;
+	justify-content: space-around;
+}
+
+.stadion-info{
+	display: flex-inline;
+	justify-content: center;
+	width: 80%;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 100px;
+}
+
+.stadion-info p, .istorija p, .tekst p .autor_tekst p{
+	font-size: 20px;
+	text-align: center;
+}
+.autor{
+	display:flex;
+	justify-content: space-around;
+}
+
+.autor_slika{
+	width: 40%;
+	height: 100px;
+	margin-top: 100px;
+}
+.autor_tekst{
+    width: 40%;
+    height: 100%;
+    font-size: 32px;
+    margin-top: 15px;
+    border-top: 1px solid #C4AE78;
+    border-bottom: 1px solid #C4AE78;
+    padding: 55px 0px;
+    text-align: center;
+}
